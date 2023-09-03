@@ -44,7 +44,7 @@ public class PlaylistCreationFrame extends javax.swing.JFrame {
     
     /**
      * Metodo costruttore della classe, genera un'istanza della finestra da vistualizzare
-     * @throws RemoteException: solleva l'eccezione se non riesce a ottenere i servizi remoti
+     * @throws RemoteException solleva l'eccezione se non riesce a ottenere i servizi remoti
      */
     public PlaylistCreationFrame() throws RemoteException {
         ServicesProvider servicesProvider = ServicesProvider.getInstance();
